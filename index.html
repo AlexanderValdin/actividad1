@@ -8,11 +8,11 @@
     <title>Document</title>
 
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
     <!-- CSS Style -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -35,36 +35,36 @@
       </div>
     </main>
     <form class="form" action="index.html" method="post">
-      <div class="">
-        <label for="">Lugar u hotel</label>
-        <input type="text" placeholder="Escribe tu destino" name="" value="">
+      <div class="form__container">
+        <label for="" class="form__label">Lugar u hotel</label>
+        <input type="text" class="form__input-text" placeholder="Escribe tu destino" name="" value="">
       </div>
-      <div class="">
-        <label for="">Fecha de llegada</label>
-        <input type="date"  name="" value="">
+      <div class="form__container">
+        <label for="" class="form__label">Fecha de llegada</label>
+        <input type="date" class="form__input-date" name="" value="">
       </div>
-      <div class="">
-        <label for="">Fecha de llegada</label>
-        <input type="date" name="" value="">
+      <div class="form__container">
+        <label for="" class="form__label">Fecha de llegada</label>
+        <input type="date" class="form__input-date" name="" value="">
       </div>
-      <div class="">
-        <label for="">Huéspedes</label>
-        <select class="" name="">
+      <div class="form__container">
+        <label for="" class="form__label">Huéspedes</label>
+        <select class="form__select" name="">
           <option value="1">Hotel</option>
           <option value="2">Hostel</option>
           <option value="3">Departamentos</option>
         </select>
       </div>
-      <div class="">
-        <label for="">Habitaciones</label>
-        <select class="" name="">
+      <div class="form__container">
+        <label for="form__label" class="form__label">Habitaciones</label>
+        <select class="form__select" name="">
           <option value="1">1 habitación</option>
           <option value="2">2 habitaciones</option>
           <option value="3">3 habitaciones</option>
           <option value="4"> + de 4</option>
         </select>
       </div>
-      <button type="submit" name="button">Buscar</button>
+      <button type="submit" class="button button_default" name="button">Buscar</button>
     </form>
   </body>
 </html>
